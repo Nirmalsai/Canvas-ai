@@ -31,8 +31,8 @@ return <div className="flex flex-col   w-full h-screen ">
         <Canvas myRef={myRef} selection={Selection} setSelection={SetSelection}></Canvas>
     </div>
     <div className="w-4/12 h-full ">
-        <Button handleClick={handleClickRes} ></Button>
-        <Button handleClick={handleClickSel} ></Button>
+        <Button handleClick={handleClickRes} txt="solve" id="1"></Button>
+       
         <Response txt={result} ></Response>
     </div>
     </div>

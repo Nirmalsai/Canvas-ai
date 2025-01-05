@@ -1,9 +1,9 @@
 import { Button } from "./ui/button"
 
 
-function Button(props){
+function Btn(props){
 
 
-    return <Button variant="secondary" onClick={props.handleClick}>Solve</Button>
+    return <Button variant="secondary" onClick={props.handleClick}>{props.txt}</Button>
 }
-export default Button
+export default Btn
