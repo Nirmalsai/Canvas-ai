@@ -142,4 +142,4 @@ export default function Canvas(props) {
     ></canvas>
   );
 }
->>>>>>> 796bd6a (added selection feature and pen sizes and colours)
+
